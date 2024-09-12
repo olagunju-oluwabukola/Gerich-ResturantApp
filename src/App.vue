@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-black text-white px-4 py-3 flex justify-between items-center">
+  <nav class="bg-grey text-white px-6 py-4 flex justify-between items-center">
     <div class="flex items-center">
       <h1 class="text-2xl font-bold">GERICHT</h1>
     </div>

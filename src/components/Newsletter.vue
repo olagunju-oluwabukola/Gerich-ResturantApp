@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center bg-black text-white py-10 px-4 font-serif">
       <div class="w-full md:max-w-7xl text-center">
         <h3 class="text-sm font-semibold uppercase mb-2">Newsletter</h3>
-        <h2 class="text-4xl font-bold mb-4">Subscribe To Our Newsletter</h2>
+        <h2 class="text-4xl font-bold mb-4 text-yellow">Subscribe To Our Newsletter</h2>
         <p class="text-gray-400 mb-6">And never miss latest updates!</p>
   
         <!-- Subscription Form -->

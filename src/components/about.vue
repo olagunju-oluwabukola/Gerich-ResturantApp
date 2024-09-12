@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div class="bg-black text-white mx-3 min-h-screen py-12 font-serif">
+    <div class="bg-black text-white  min-h-screen py-12 font-serif">
       <div class="container mx-auto px-4 md:px-0">
         <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
           <div class="relative">

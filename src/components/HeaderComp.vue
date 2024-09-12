@@ -23,10 +23,7 @@
             alt="Dish Image"
             class="w-[900px]"
           />
-          <div class="absolute top-4 left-4 flex space-x-2">
-            <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-black font-bold">H</div>
-            <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black font-bold">H</div>
-          </div>
+
          
         </div>
       </div>

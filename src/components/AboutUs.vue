@@ -10,22 +10,28 @@
   
       
       <div class="relative z-10 flex items-center justify-center flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
-      
-        <div class="">
-          <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow flex gap-3 font-serif">
+        <div class="justify-center md:hidden items-center">
+          <img
+            src="/public/savernake-knives-f4jl2ezowuM-unsplash 2.svg"     
+            alt="Knife"
+            class="max-h-48 md:max-h-64 lg:max-h-80 xl:max-h-96"
+          />
+        </div>
+        <div class="mr-12 ">
+          <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow flex gap-2 font-serif">
             <p>About</p>
             <p>Us <span><img src="/public/spoon.svg"></span> </p>
              
             </h2>
-          <p class="mt-4 text-xs md:text-sm lg:text-base text-gray-400 text-right">
+          <p class="mt-4 text-xs md:text-sm lg:text-base text-gray-400 md:text-right">
             Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Quis pharetra  adipiscing <br> ultrices vulputate posuere tristique.
           </p>
-          <div class="flex md:justify-left">
+          <div class="flex md:justify-left hidden md:block ">
             <button class="mt-6 px-4 py-2 md:px-6 md:py-2 bg-yellow hover:border border-yellow rounded flex justify-start font-serif">Know More</button>
           </div>
         </div>
 
-        <div class="flex justify-center items-center">
+        <div class="justify-center hidden md:block items-center">
           <img
             src="/public/savernake-knives-f4jl2ezowuM-unsplash 2.svg"     
             alt="Knife"

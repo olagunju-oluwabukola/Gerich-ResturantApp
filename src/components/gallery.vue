@@ -4,8 +4,8 @@
   
         <!-- Left Section: Text Content -->
         <div class="md:w-1/3 text-center md:text-left mb-8 md:mb-0">
-          <h3 class="text-sm uppercase text-yellow-500">Instagram</h3>
-          <h1 class="text-4xl font-serif text-yellow-200">Photo Gallery</h1>
+          <h3 class="text-sm uppercase text-yellow">Instagram</h3>
+          <h1 class="text-4xl font-serif text-yellow">Photo Gallery</h1>
           <p class="text-gray-400 mt-4 mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
           </p>
