@@ -27,7 +27,7 @@
     <transition name="fade" @before-enter="beforeEnter" @enter="enter" @leave="leave">
       <div v-if="menuOpen" class="lg:hidden absolute top-14 left-0 w-full bg-black flex flex-col space-y-4 px-6 py-4">
         <router-link to="/" class="hover:text-gray-400">Home</router-link>
-        <router-link to="/pages" class="hover:text-gray-400">Pages</router-link>
+        <router-link to="/page/:category" class="hover:text-gray-400">Pages</router-link>
         <router-link to="/contact" class="hover:text-gray-400">Contact Us</router-link>
         <router-link to="/blog" class="hover:text-gray-400">Blog</router-link>
         <router-link to="/login" class="hover:text-gray-400">Log In / Registration</router-link>
