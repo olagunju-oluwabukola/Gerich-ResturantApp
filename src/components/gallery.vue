@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-black text-white py-12 px-4 font-serif">
+    <section id="gallery" class="bg-black text-white py-12 px-4 font-serif">
       <div class="container mx-auto flex flex-col md:flex-row items-center">
   
         <!-- Left Section: Text Content -->

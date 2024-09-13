@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row items-center bg-black text-white py-10 px-4 md:px-20">
+    <div id="contact" class="flex flex-col md:flex-row items-center bg-black text-white py-10 px-4 md:px-20">
       <div class="md:w-1/2 text-left">
         <h3 class="text-sm font-semibold uppercase mb-2">Contact</h3>
         <h2 class="text-4xl font-bold mb-4">Find Us</h2>

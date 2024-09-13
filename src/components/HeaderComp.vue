@@ -1,5 +1,5 @@
 <template>
-    <div class=" md:flex justify-center items-center h-screen bg-grey">
+    <div class=" md:flex justify-center items-center h-screen bg-black">
       <div class="grid md:flex max-w-4xl mx-auto bg-black text-white">
         
         <div class="p-8">
@@ -13,7 +13,10 @@
             morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus".
           </p>
           <button class="mt-8 px-6 py-3 bg-yellow text-black font-semibold rounded hover:bg-gray-400 transition-colors">
-            Explore Menu
+            <a href="#gallery">
+              Explore Menu
+
+            </a>
           </button>
         </div>
         

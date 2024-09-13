@@ -1,20 +1,19 @@
 <template>
-  <nav class="bg-grey text-white px-6 py-4 flex justify-between items-center">
+  <nav class="bg-black text-white px-6 py-4 flex justify-between items-center">
     <div class="flex items-center">
-      <h1 class="text-2xl font-bold">GERICHT</h1>
+    <h1 class="text-3xl font-serif text-yellow font-bold">GERÍCHT</h1>
     </div>
 
     <div class="hidden lg:flex space-x-6">
       <router-link to="/" class="hover:text-gray-400">Home</router-link>
-      <router-link to="/pages" class="hover:text-gray-400">Pages</router-link>
-      <router-link to="/contact-us" class="hover:text-gray-400">Contact Us</router-link>
+      <router-link to="/page/:category" class="hover:text-gray-400">Pages</router-link>
+      <router-link to="/contact" class="hover:text-gray-400">Contact Us</router-link>
       <router-link to="/blog" class="hover:text-gray-400">Blog</router-link>
-      <router-link to="/landing" class="hover:text-gray-400">Landing</router-link>
     </div>
 
     <div class="hidden lg:flex space-x-4 items-center">
       <router-link to="/login" class="hover:text-gray-400">Log In / Registration</router-link>
-      <router-link to="/book-table" class="hover:text-gray-400">Book Table</router-link>
+      <router-link to="/booking" class="hover:text-gray-400">Book Table</router-link>
     </div>
 
     <!-- Mobile Menu Button -->
@@ -29,11 +28,10 @@
       <div v-if="menuOpen" class="lg:hidden absolute top-14 left-0 w-full bg-black flex flex-col space-y-4 px-6 py-4">
         <router-link to="/" class="hover:text-gray-400">Home</router-link>
         <router-link to="/pages" class="hover:text-gray-400">Pages</router-link>
-        <router-link to="/contact-us" class="hover:text-gray-400">Contact Us</router-link>
+        <router-link to="/contact" class="hover:text-gray-400">Contact Us</router-link>
         <router-link to="/blog" class="hover:text-gray-400">Blog</router-link>
-        <router-link to="/landing" class="hover:text-gray-400">Landing</router-link>
         <router-link to="/login" class="hover:text-gray-400">Log In / Registration</router-link>
-        <router-link to="/book-table" class="hover:text-gray-400">Book Table</router-link>
+        <router-link to="/booking" class="hover:text-gray-400">Book Table</router-link>
       </div>
     </transition>
   </nav>
