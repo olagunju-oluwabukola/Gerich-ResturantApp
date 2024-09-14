@@ -1,21 +1,18 @@
-// firebase.js
-import { initializeApp } from 'firebase/app';  // Updated import for Firebase App
-import { getFirestore } from 'firebase/firestore';  // Updated import for Firestore
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 
-// Your Firebase configuration object
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: 'AIzaSyBtr-aa6bPrS3FtlUeua8vydc57qRJTFuE',
+  authDomain: 'gericht-bee84.firebaseapp.com',
+  databaseURL: 'https://gericht-bee84-default-rtdb.firebaseio.com',
+  projectId: 'gericht-bee84',
+  storageBucket: 'gericht-bee84.appspot.com',
+  messagingSenderId: '793098447980',
+  appId: '1:793098447980:web:7107205d9a5ad17d29bc49',
+  measurementId: 'G-X6YB4H45BM'
 };
 
-// Initialize Firebase App
 const firebaseApp = initializeApp(firebaseConfig);
-
-// Initialize Firestore
 const db = getFirestore(firebaseApp);
 
 export { db };

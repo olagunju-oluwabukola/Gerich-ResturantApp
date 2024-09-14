@@ -1,20 +1,21 @@
 <template>
   <nav class="bg-black text-white px-6 py-4 flex justify-between items-center">
-    <div class="flex items-center">
-    <h1 class="text-3xl font-serif text-yellow font-bold">GERÍCHT</h1>
+    <div class="flex justify-center">
+      <router-link to="/" class="hover:text-gray-400">
+        <h1 class="text-3xl font-serif text-yellow font-bold">GERÍCHT</h1>
+      </router-link>
+    
     </div>
 
-    <div class="hidden lg:flex space-x-6">
+    <div class="hidden lg:flex space-x-6 mr-12">
       <router-link to="/" class="hover:text-gray-400">Home</router-link>
       <router-link to="/page/:category" class="hover:text-gray-400">Pages</router-link>
       <router-link to="/contact" class="hover:text-gray-400">Contact Us</router-link>
       <router-link to="/blog" class="hover:text-gray-400">Blog</router-link>
-    </div>
-
-    <div class="hidden lg:flex space-x-4 items-center">
-      <router-link to="/login" class="hover:text-gray-400">Log In / Registration</router-link>
       <router-link to="/booking" class="hover:text-gray-400">Book Table</router-link>
     </div>
+      
+
 
     <!-- Mobile Menu Button -->
     <button @click="toggleMenu" class="lg:hidden">
@@ -30,7 +31,6 @@
         <router-link to="/page/:category" class="hover:text-gray-400">Pages</router-link>
         <router-link to="/contact" class="hover:text-gray-400">Contact Us</router-link>
         <router-link to="/blog" class="hover:text-gray-400">Blog</router-link>
-        <router-link to="/login" class="hover:text-gray-400">Log In / Registration</router-link>
         <router-link to="/booking" class="hover:text-gray-400">Book Table</router-link>
       </div>
     </transition>

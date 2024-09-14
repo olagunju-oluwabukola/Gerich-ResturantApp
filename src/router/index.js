@@ -40,12 +40,7 @@ const router = createRouter({
       component: () => import('../views/bookAtable.vue'), 
       props: true,
     },
-    {
-      path: '/login',
-      name: 'login',
-      component: () => import('../views/Login.vue'), 
-      props: true,
-    },
+    
   ],
 });
 
